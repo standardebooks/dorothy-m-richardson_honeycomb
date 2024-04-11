@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/dorothy-m-richardson/honeycomb</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-04-11T00:11:00Z</dc:date>
+		<meta property="dcterms:modified">2024-04-11T00:11:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -45,14 +45,14 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Honeycomb&lt;/i&gt; is the third installment in in &lt;a href="https://standardebooks.org/ebooks/dorothy-m-richardson"&gt;Dorothy M. Richardson’s&lt;/a&gt; pioneering sequence of semi-autobiographical novels, &lt;a href="https://standardebooks.org/collections/pilgrimage"&gt;Pilgrimage&lt;/a&gt;.&lt;/p&gt;
 			&lt;p&gt;Miriam Henderson, after spending time as a teacher in a German school in the first novel, &lt;a href="https://standardebooks.org/ebooks/dorothy-m-richardson/pointed-roofs"&gt;&lt;i&gt;&lt;i&gt;Pointed Roofs&lt;/i&gt;&lt;/i&gt;&lt;/a&gt;, and in a suburban London school in the second, &lt;a href="https://standardebooks.org/ebooks/dorothy-m-richardson/backwater"&gt;&lt;i&gt;Backwater&lt;/i&gt;&lt;/a&gt;, has found a place as governess with a wealthy English family. From her perspective as an outsider she observes the lives of the wealthy women who live in, and visit, the house.&lt;/p&gt;
-			&lt;p&gt;At the same time, after her father’s disgrace, Miriam’s own family faces challenges and changes, including her sisters’ marriages, leaving Miriam with a closer relationship, and a new understanding, of her mother.&lt;/p&gt;
+			&lt;p&gt;At the same time, after her father’s disgrace Miriam’s own family faces challenges and changes—including her sisters’ marriages—leaving Miriam with a closer relationship, and a new understanding, of her mother.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/56664</dc:source>
 		<dc:source>https://archive.org/details/honeycomb00richuoft</dc:source>
 		<meta property="se:production-notes">In early volumes, Richardson separated the text into numbered subchapters. In later volumes, and later revisions, she eliminated these numbers and left spacing between these "subchapters." The printed text for this edition uses numbers, but for consistency and based on the author's later-expressed intention they are replaced in this Standard Ebooks edition with unnumbered thought breaks.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">49777</meta>
+		<meta property="se:reading-ease.flesch">73.78</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Honeycomb</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/dorothy-m-richardson_honeycomb</meta>
 		<dc:creator id="author">Dorothy M. Richardson</dc:creator>
@@ -84,6 +84,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
